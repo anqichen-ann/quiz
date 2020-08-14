@@ -32470,7 +32470,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      var url = 'http://localhost:3306/rs/list';
+      var url = 'http://localhost:8080/product';
       var request = fetch(url, {
         method: 'get'
       }).then(function (res) {
@@ -32806,7 +32806,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58092" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54264" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

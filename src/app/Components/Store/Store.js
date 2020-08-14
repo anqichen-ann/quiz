@@ -12,7 +12,7 @@ class Store extends React.Component {
     }
 
     componentDidMount(){
-        const url = 'http://localhost:3306/rs/list';
+        const url = 'http://localhost:8080/product';
         const request = fetch(url,{method:'get'})
                     .then(res=>res.json())
                     .then(data=>{
