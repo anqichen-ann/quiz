@@ -7,7 +7,8 @@ class Store extends React.Component {
         super(props);
         this.state = {
             list: [],
-            flag: false
+            flag: false,
+            order: []
         }
     }
 
